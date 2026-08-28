@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+title: >-
+  MCP Governance Validation: Six Properties for Evaluating the Security
+  Controls Around Agent Tool Ecosystems
+message: >-
+  If you reference this framework or run one of its experiments, please cite it
+  and — more usefully — report the result.
+type: dataset
+authors:
+  - given-names: Bindiya
+    family-names: Priyadarshini
+    orcid: 'https://orcid.org/0009-0005-7559-3896'
+repository-code: 'https://github.com/bin-ini/mcp-governance-validation'
+abstract: >-
+  Security research has produced extensive benchmarks for the failures of
+  systems — vulnerability corpora, exploit suites, attack taxonomies, red-team
+  harnesses — but comparatively little work evaluating the governance planes
+  enterprises deploy to manage agent ecosystems. This work proposes six
+  properties against which such a governance plane can be tested
+  (discoverability, integrity, authorization, observability, action
+  traceability, containment), each with a measurable and a defined failure
+  condition, arranged as a partial order in which discoverability and integrity
+  gate the rest. It describes three structural patterns a governance architecture can
+  exhibit and specifies four pre-registerable experiments designed to falsify
+  the resulting claims. It is a framework paper rather than a results paper: the experiments
+  are proposed, not executed.
+keywords:
+  - Model Context Protocol
+  - MCP
+  - AI agent security
+  - agent governance
+  - security control evaluation
+  - falsifiability
+  - prompt injection
+  - enterprise security architecture
+license: CC-BY-4.0
+date-released: '2026-08-24'
+version: '1.0.0'
